@@ -69,14 +69,15 @@
 
 - 📧 **邮箱**：[你的邮箱]
 - 💬 **微信**：[你的微信]
+- 🐧 **QQ**：扫码添加
 - 🌐 **博客**：https://www.itbunan.xyz/
 - 💼 **知乎**：https://www.zhihu.com/people/zhiyuan68
 
-### 微信二维码
+### QQ 二维码
 
-![微信二维码](./qr-wechat.png)
+![QQ 二维码](https://www.itbunan.xyz/usr/uploads/image/1940728253.png)
 
-> 扫码添加微信，备注"WooCommerce 支付"优先通过
+> 扫码添加 QQ，备注"WooCommerce 支付"优先通过
 
 ---
 
