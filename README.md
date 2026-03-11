@@ -1,7 +1,7 @@
 # WooCommerce Payment Gateways Collection
 
 > **40+ 个 WooCommerce 支付网关插件合集**，覆盖全球主流支付渠道。  
-> 本仓库包含 5 个生产环境验证过的插件示例，可免费下载使用。
+> 本仓库包含 4 个生产环境验证过的插件示例，可免费下载使用。
 
 ---
 
@@ -11,7 +11,6 @@
 |----------|----------|------|--------|
 | **woo-sbp** | SBP（俄罗斯快速支付） | 俄罗斯 | ⭐⭐⭐⭐⭐ |
 | **woocommerce-payment-novam** | Novam（加密货币） | 全球 | ⭐⭐⭐⭐ |
-| **woo-huifu-gateway** | 汇付天下 | 中国 | ⭐⭐⭐ |
 | **worldpay-hosted** | WorldPay | 欧美 | ⭐⭐⭐⭐ |
 | **woo-superxpay-gateway** | Superxpay | 东南亚 | ⭐⭐⭐ |
 
@@ -55,9 +54,10 @@
 - 🇸🇪 **东南亚**：PromptPay、VNPay、MoMo、OVO、GCash
 - 🇦🇪 **中东**：Mada、KNET、Fawry
 - 🇧🇷 **拉美**：Pix、Boleto、Mercado Pago
-- 🇨🇳 **中国**：汇付天下、银联、易宝、支付宝、微信
 - 💰 **加密货币**：USDT、BTC、ETH（TRC20/ERC20）
 - 🌍 **国际支付**：WorldPay、GlobalPay、Stripe
+
+**国内支付渠道（支付宝、微信、银联、汇付等）需单独联系**
 
 **有支付渠道的 API 文档？发给我，免费评估报价！**
 
