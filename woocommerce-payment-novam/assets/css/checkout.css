@@ -1,0 +1,46 @@
+/* 经典结账样式 */
+.wc-novam-payment-fields {
+    margin: 1em 0;
+}
+
+.wc-novam-label {
+    margin-bottom: 0.5em;
+    display: block;
+}
+
+/* Block结账样式 */
+.wc-block-checkout .wc-payment-method-payment-method-jazzcash_direct,
+.wc-block-checkout .wc-payment-method-payment-method-easypaisa_direct {
+    padding: 1em;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    margin-bottom: 1em;
+}
+
+.wc-block-checkout .wc-novam-payment-fields input {
+    width: 100%;
+    padding: 0.75em;
+    margin: 0.5em 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* 隐藏订单确认页面的操作栏（付款和取消按钮） */
+.woocommerce-order .woocommerce-order-details__footer,
+.woocommerce-order .order-again,
+.woocommerce-order-details .order-again,
+.order_details .order-again,
+.woocommerce-thankyou .woocommerce-order-details__footer,
+.woocommerce-thankyou .order-again,
+.order-actions,
+.order-actions-button,
+.woocommerce-order-details__footer .order-actions,
+.woocommerce-order-details__footer .order-actions-button,
+.woocommerce-table.order_details tfoot tr:last-child,
+.woocommerce-table.order_details tfoot tr:last-child th,
+.woocommerce-table.order_details tfoot tr:last-child td,
+table.order_details tfoot tr:last-child,
+table.order_details tfoot tr:last-child th,
+table.order_details tfoot tr:last-child td {
+    display: none !important;
+}

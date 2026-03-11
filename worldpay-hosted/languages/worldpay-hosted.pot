@@ -1,0 +1,138 @@
+# WorldPay Hosted Payment Plugin
+# Copyright (C) 2024
+# This file is distributed under the same license as the WorldPay Hosted Payment Plugin package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WorldPay Hosted Payment Plugin 2.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-13 00:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: worldpay-hosted-plugin.php:43
+msgid "Settings"
+msgstr ""
+
+#: includes/class-worldpay-settings.php:15
+#: includes/class-worldpay-settings.php:28
+msgid "WorldPay Hosted Payment Settings"
+msgstr ""
+
+#: includes/class-worldpay-settings.php:16
+msgid "WorldPay Hosted"
+msgstr ""
+
+#: includes/class-worldpay-settings.php:49
+msgid "Payrix API Credentials"
+msgstr ""
+
+#: includes/class-worldpay-settings.php:56
+msgid "API Environment"
+msgstr ""
+
+#: includes/class-worldpay-settings.php:64
+msgid "Merchant ID"
+msgstr ""
+
+#: includes/class-worldpay-settings.php:72
+msgid "API Key"
+msgstr ""
+
+#: includes/class-worldpay-settings.php:81
+msgid "Order Status Settings"
+msgstr ""
+
+#: includes/class-worldpay-settings.php:88
+msgid "Payment Success Status"
+msgstr ""
+
+#: includes/class-worldpay-settings.php:118
+msgid "Enter your Payrix (WorldPay Hosted) API credentials below:"
+msgstr ""
+
+#: includes/class-worldpay-settings.php:122
+msgid "Configure the order status updates after payment notification:"
+msgstr ""
+
+#: includes/class-worldpay-settings.php:129
+msgid "Test Environment"
+msgstr ""
+
+#: includes/class-worldpay-settings.php:130
+msgid "Production Environment"
+msgstr ""
+
+#: includes/class-worldpay-settings.php:132
+msgid "Select the API environment (Test or Production)."
+msgstr ""
+
+#: includes/class-worldpay-settings.php:140
+msgid "Your Payrix Merchant ID (e.g., t1_mer_xxxxx)"
+msgstr ""
+
+#: includes/class-worldpay-settings.php:148
+msgid "Your Payrix API Key for server-side authentication"
+msgstr ""
+
+#: includes/class-worldpay-settings.php:156
+msgid "Completed"
+msgstr ""
+
+#: includes/class-worldpay-settings.php:157
+msgid "Processing"
+msgstr ""
+
+#: includes/class-worldpay-settings.php:159
+msgid "Choose the order status to set when payment is successfully received."
+msgstr ""
+
+#: includes/class-worldpay-wc-gateway.php:26
+#: includes/class-worldpay-wc-gateway.php:56
+msgid "WorldPay Hosted Payment"
+msgstr ""
+
+#: includes/class-worldpay-wc-gateway.php:27
+#: includes/class-worldpay-wc-gateway.php:63
+msgid "Pay securely with WorldPay Hosted payment gateway."
+msgstr ""
+
+#: includes/class-worldpay-wc-gateway.php:47
+msgid "Enable/Disable"
+msgstr ""
+
+#: includes/class-worldpay-wc-gateway.php:49
+msgid "Enable WorldPay Hosted Payment"
+msgstr ""
+
+#: includes/class-worldpay-wc-gateway.php:53
+msgid "Title"
+msgstr ""
+
+#: includes/class-worldpay-wc-gateway.php:55
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+
+#: includes/class-worldpay-wc-gateway.php:60
+msgid "Description"
+msgstr ""
+
+#: includes/class-worldpay-wc-gateway.php:62
+msgid "Payment method description that the customer will see on your checkout."
+msgstr ""
+
+#: includes/class-worldpay-wc-gateway.php:79
+msgid "Awaiting WorldPay Hosted payment"
+msgstr ""
+
+#: includes/api/class-payrix-payment-service.php:191
+msgid "Payment completed via WorldPay Hosted (Payrix)."
+msgstr ""
+
+#: includes/class-worldpay-hosted-page.php:223
+msgid "Payment completed via WorldPay Hosted Payment."
+msgstr ""

@@ -1,0 +1,350 @@
+# WorldPay Hosted Payment Plugin - 简体中文
+# Copyright (C) 2024
+msgid ""
+msgstr ""
+"Project-Id-Version: WorldPay Hosted Payment Plugin 1.7.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-13 00:00+0000\n"
+"PO-Revision-Date: 2024-11-13 00:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: worldpay-hosted-plugin.php:43
+msgid "Settings"
+msgstr "设置"
+
+#: includes/class-worldpay-settings.php:15
+#: includes/class-worldpay-settings.php:28
+msgid "WorldPay Hosted Payment Settings"
+msgstr "WorldPay Hosted 支付设置"
+
+#: includes/class-worldpay-settings.php:16
+msgid "WorldPay Hosted"
+msgstr "WorldPay Hosted"
+
+#: includes/class-worldpay-settings.php:49
+msgid "Payrix API Credentials"
+msgstr "Payrix API 凭证"
+
+#: includes/class-worldpay-settings.php:56
+msgid "API Environment"
+msgstr "API 环境"
+
+#: includes/class-worldpay-settings.php:64
+msgid "Merchant ID"
+msgstr "商户 ID"
+
+#: includes/class-worldpay-settings.php:72
+msgid "Public API Key (Frontend)"
+msgstr "公钥 (前端)"
+
+#: includes/class-worldpay-settings.php:80
+msgid "Private API Key (Backend)"
+msgstr "私钥 (后端)"
+
+#: includes/class-worldpay-settings.php:160
+msgid "Your Payrix Public API Key (used for frontend PayFields initialization)"
+msgstr "您的 Payrix 公钥（用于前端 PayFields 初始化）"
+
+#: includes/class-worldpay-settings.php:168
+msgid "Your Payrix Private API Key (used for backend API calls like creating tokens)"
+msgstr "您的 Payrix 私钥（用于后端 API 调用，如创建 Token）"
+
+#: includes/class-worldpay-hosted-page.php:127
+msgid "Select Payment Method"
+msgstr "选择支付方式"
+
+#: includes/class-worldpay-hosted-page.php:128
+msgid "Use a new card"
+msgstr "使用新卡"
+
+#: includes/class-worldpay-hosted-page.php:129
+msgid "Continue"
+msgstr "继续"
+
+#: includes/class-worldpay-hosted-page.php:130
+msgid "Confirm Payment"
+msgstr "确认支付"
+
+#: includes/class-worldpay-hosted-page.php:131
+msgid "Paying with saved card"
+msgstr "使用已保存的卡片支付"
+
+#: includes/class-worldpay-hosted-page.php:132
+msgid "Amount"
+msgstr "金额"
+
+#: includes/class-worldpay-hosted-page.php:133
+msgid "Confirm and Pay"
+msgstr "确认并支付"
+
+#: includes/class-worldpay-hosted-page.php:134
+msgid "Cancel"
+msgstr "取消"
+
+#: includes/class-worldpay-settings.php:81
+msgid "Order Status Settings"
+msgstr "订单状态设置"
+
+#: includes/class-worldpay-settings.php:88
+msgid "Payment Success Status"
+msgstr "支付成功状态"
+
+#: includes/class-worldpay-settings.php:118
+msgid "Enter your Payrix (WorldPay Hosted) API credentials below:"
+msgstr "在下方输入您的 Payrix (WorldPay Hosted) API 凭证："
+
+#: includes/class-worldpay-settings.php:122
+msgid "Configure the order status updates after payment notification:"
+msgstr "配置支付通知后的订单状态更新："
+
+#: includes/class-worldpay-settings.php:127
+msgid "Debug Settings"
+msgstr "调试设置"
+
+#: includes/class-worldpay-settings.php:138
+msgid "Enable detailed logging for debugging API requests and responses:"
+msgstr "启用详细日志记录以调试 API 请求和响应："
+
+#: includes/class-worldpay-settings.php:143
+msgid "Enable Debug Log"
+msgstr "启用调试日志"
+
+#: includes/class-worldpay-settings.php:151
+msgid "Clear Customer ID Cache"
+msgstr "清理 Customer ID 缓存"
+
+#: includes/class-worldpay-settings.php:188
+msgid "Enable detailed API request and response logging"
+msgstr "启用详细的 API 请求和响应日志记录"
+
+#: includes/class-worldpay-settings.php:190
+msgid "When enabled, all API requests and responses will be logged. Frontend logs will appear in browser console, backend logs in PHP error log."
+msgstr "启用后，所有 API 请求和响应都将被记录。前端日志将显示在浏览器控制台，后端日志显示在 PHP 错误日志中。"
+
+#: includes/class-worldpay-settings.php:198
+msgid "Clear all cached customer IDs"
+msgstr "清理所有缓存的 Customer ID"
+
+#: includes/class-worldpay-settings.php:200
+msgid "Check this box and click \"Save Changes\" to clear all customer ID cache for all users (both test and production environments)."
+msgstr "勾选此项并点击“保存更改”以清理所有用户的 Customer ID 缓存（测试和生产环境）。"
+
+#: includes/class-worldpay-settings.php:201
+msgid "Warning: This will remove all cached customer IDs. Users will need to re-authenticate on their next payment."
+msgstr "警告：这将删除所有缓存的 Customer ID。用户在下次支付时需要重新认证。"
+
+#: includes/class-worldpay-settings.php:136
+msgid "Customer ID cache has been cleared for all users."
+msgstr "已清理所有用户的 Customer ID 缓存。"
+
+#: includes/class-worldpay-settings.php:129
+msgid "Test Environment"
+msgstr "测试环境"
+
+#: includes/class-worldpay-settings.php:130
+msgid "Production Environment"
+msgstr "生产环境"
+
+#: includes/class-worldpay-settings.php:132
+msgid "Select the API environment (Test or Production)."
+msgstr "选择 API 环境（测试或生产）。"
+
+#: includes/class-worldpay-settings.php:140
+msgid "Your Payrix Merchant ID (e.g., t1_mer_xxxxx)"
+msgstr "您的 Payrix 商户 ID（例如：t1_mer_xxxxx）"
+
+#: includes/class-worldpay-settings.php:148
+msgid "Your Payrix API Key for server-side authentication"
+msgstr "您的 Payrix API 密钥，用于服务端身份验证"
+
+#: includes/class-worldpay-settings.php:156
+msgid "Completed"
+msgstr "已完成"
+
+#: includes/class-worldpay-settings.php:157
+msgid "Processing"
+msgstr "处理中"
+
+#: includes/class-worldpay-settings.php:159
+msgid "Choose the order status to set when payment is successfully received."
+msgstr "选择支付成功后设置的订单状态。"
+
+#: includes/class-worldpay-settings.php:167
+msgid "Redirect Countdown (seconds)"
+msgstr "跳转倒计时（秒）"
+
+#: includes/class-worldpay-settings.php:194
+msgid "Number of seconds to wait before redirecting to order confirmation page after successful payment (1-60 seconds)."
+msgstr "支付成功后跳转到订单确认页面的等待秒数（1-60 秒）。"
+
+#: includes/class-worldpay-wc-gateway.php:26
+#: includes/class-worldpay-wc-gateway.php:56
+msgid "WorldPay Hosted Payment"
+msgstr "WorldPay Hosted 支付"
+
+#: includes/class-worldpay-wc-gateway.php:27
+#: includes/class-worldpay-wc-gateway.php:63
+msgid "Pay securely with WorldPay Hosted payment gateway."
+msgstr "使用 WorldPay Hosted 支付网关安全支付。"
+
+#: includes/class-worldpay-wc-gateway.php:47
+msgid "Enable/Disable"
+msgstr "启用/禁用"
+
+#: includes/class-worldpay-wc-gateway.php:49
+msgid "Enable WorldPay Hosted Payment"
+msgstr "启用 WorldPay Hosted 支付"
+
+#: includes/class-worldpay-wc-gateway.php:53
+msgid "Title"
+msgstr "标题"
+
+#: includes/class-worldpay-wc-gateway.php:55
+msgid "This controls the title which the user sees during checkout."
+msgstr "这控制用户在结账时看到的标题。"
+
+#: includes/class-worldpay-wc-gateway.php:60
+msgid "Description"
+msgstr "描述"
+
+#: includes/class-worldpay-wc-gateway.php:62
+msgid "Payment method description that the customer will see on your checkout."
+msgstr "客户在结账时看到的支付方式描述。"
+
+#: includes/class-worldpay-wc-gateway.php:79
+msgid "Awaiting WorldPay Hosted payment"
+msgstr "等待 WorldPay Hosted 支付"
+
+#: includes/api/class-payrix-payment-service.php:191
+msgid "Payment completed via WorldPay Hosted (Payrix)."
+msgstr "通过 WorldPay Hosted (Payrix) 完成支付。"
+
+#: includes/class-worldpay-hosted-page.php:223
+msgid "Payment completed via WorldPay Hosted Payment."
+msgstr "通过 WorldPay Hosted 完成支付。"
+
+#: templates/payrix-checkout.php:221
+msgid "Loading payment form..."
+msgstr "正在加载支付表单..."
+
+#: templates/payrix-checkout.php:226
+msgid "Payment Information"
+msgstr "支付信息"
+
+#: templates/payrix-checkout.php:229
+msgid "Card Number"
+msgstr "卡号"
+
+#: templates/payrix-checkout.php:235
+msgid "Expiration Date"
+msgstr "有效期"
+
+#: templates/payrix-checkout.php:240
+msgid "CVV"
+msgstr "CVV"
+
+#: templates/payrix-checkout.php:246
+msgid "Cardholder Name"
+msgstr "持卡人姓名"
+
+#: templates/payrix-checkout.php:251
+msgid "Address form hidden because PayFields displays pre-filled addresses as ***"
+msgstr "隐藏地址表单，因为PayFields会将预填充的地址显示为***"
+
+#: templates/payrix-checkout.php:254
+msgid "Billing Address"
+msgstr "账单地址"
+
+#: templates/payrix-checkout.php:260
+msgid "Submit Payment"
+msgstr "提交支付"
+
+#: includes/class-worldpay-hosted-page.php:100
+msgid "Unable to load payment form:"
+msgstr "无法加载支付表单："
+
+#: includes/class-worldpay-hosted-page.php:101
+msgid "Please refresh the page and try again."
+msgstr "请刷新页面重试。"
+
+#: includes/class-worldpay-hosted-page.php:102
+msgid "Please check your payment information"
+msgstr "请检查输入的支付信息"
+
+#: includes/class-worldpay-hosted-page.php:104
+msgid "Processing..."
+msgstr "处理中..."
+
+#: includes/class-worldpay-hosted-page.php:105
+msgid "Retry Payment"
+msgstr "重试支付"
+
+#: includes/class-worldpay-hosted-page.php:106
+msgid "Payment Successful!"
+msgstr "支付成功！"
+
+#: includes/class-worldpay-hosted-page.php:107
+msgid "Transaction ID:"
+msgstr "交易ID："
+
+#: includes/class-worldpay-hosted-page.php:108
+msgid "Updating order status..."
+msgstr "正在更新订单状态..."
+
+#: includes/class-worldpay-hosted-page.php:109
+msgid "Redirecting to order confirmation page..."
+msgstr "即将跳转到订单确认页面..."
+
+#: includes/class-worldpay-hosted-page.php:110
+msgid "Payment Failed"
+msgstr "支付失败"
+
+#: includes/class-worldpay-hosted-page.php:111
+msgid "Please check your payment information and try again"
+msgstr "请检查您的支付信息并重试"
+
+#: includes/class-worldpay-hosted-page.php:112
+msgid "Error:"
+msgstr "错误："
+
+#: includes/class-worldpay-hosted-page.php:113
+msgid "PayFields not initialized, please refresh the page"
+msgstr "PayFields 未初始化，请刷新页面"
+
+#: includes/class-worldpay-hosted-page.php:114
+msgid "Invalid payment configuration: Missing Merchant ID"
+msgstr "支付配置无效：缺少 Merchant ID"
+
+#: includes/class-worldpay-wc-gateway.php:115
+msgid "Invalid payment configuration: Missing API Key, please check backend settings"
+msgstr "支付配置无效：缺少 API Key，请检查后台设置"
+
+#: includes/class-worldpay-wc-gateway.php:72
+msgid "Payment Method Icon"
+msgstr "支付方式图标"
+
+#: includes/class-worldpay-wc-gateway.php:74
+msgid "Upload or enter the URL of the payment method icon. Leave empty to use the default icon."
+msgstr "上传或输入支付方式图标的 URL。留空则使用默认图标。"
+
+#: includes/class-worldpay-wc-gateway.php:119
+msgid "Upload Icon"
+msgstr "上传图标"
+
+#: includes/class-worldpay-wc-gateway.php:123
+msgid "Remove Icon"
+msgstr "移除图标"
+
+#: includes/class-worldpay-wc-gateway.php:162
+msgid "Select Payment Method Icon"
+msgstr "选择支付方式图标"
+
+#: includes/class-worldpay-wc-gateway.php:163
+msgid "Use this image"
+msgstr "使用此图像"

@@ -1,0 +1,14 @@
+{
+    "name": "worldpay-hosted/payment-plugin",
+    "description": "WorldPay Hosted (Payrix) Payment Plugin for WordPress/WooCommerce",
+    "type": "wordpress-plugin",
+    "require": {
+        "php": ">=7.4",
+        "ext-json": "*"
+    },
+    "config": {
+        "allow-plugins": {
+            "kylekatarnls/update-helper": true
+        }
+    }
+}

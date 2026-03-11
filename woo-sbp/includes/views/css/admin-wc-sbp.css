@@ -1,0 +1,42 @@
+.wc-sbp-settings {
+    margin-right: 300px;
+}
+.wc-sbp-settings form {
+    float: left;
+    min-width: 100%;
+    width: auto;
+}
+.wc-sbp-sidebar {
+    float: right;
+    width: 280px;
+    margin: 0 -300px 20px 20px;
+    position: relative;
+}
+.wc-sbp-sidebar .wc-sbp-credits {
+    background: #fff;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
+    margin-bottom: 20px;
+}
+.wc-sbp-sidebar h3 {
+    font-size: 14px;
+    line-height: 1.4;
+    margin: 0;
+    padding: 8px 12px;
+    border-bottom: 1px solid #eee;
+}
+.metabox-holder h3.hndle {
+    font-size: 14px;
+    padding: 8px 12px;
+    margin: 0;
+    line-height: 1.4;
+}
+.wc-sbp-sidebar .inner {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+img.wc-sbp-logo{
+    width: 140px;
+}
+p.wc-sbp-link{
+	padding-bottom: 10px;
+}

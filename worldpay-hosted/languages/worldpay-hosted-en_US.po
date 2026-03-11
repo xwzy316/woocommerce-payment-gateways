@@ -1,0 +1,258 @@
+# WorldPay Hosted Payment Plugin - English (US)
+# Copyright (C) 2024
+msgid ""
+msgstr ""
+"Project-Id-Version: WorldPay Hosted Payment Plugin 2.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-13 00:00+0000\n"
+"PO-Revision-Date: 2024-11-13 00:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: English (US)\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: worldpay-hosted-plugin.php:43
+msgid "Settings"
+msgstr "Settings"
+
+#: includes/class-worldpay-settings.php:15
+#: includes/class-worldpay-settings.php:28
+msgid "WorldPay Hosted Payment Settings"
+msgstr "WorldPay Hosted Payment Settings"
+
+#: includes/class-worldpay-settings.php:16
+msgid "WorldPay Hosted"
+msgstr "WorldPay Hosted"
+
+#: includes/class-worldpay-settings.php:49
+msgid "Payrix API Credentials"
+msgstr "Payrix API Credentials"
+
+#: includes/class-worldpay-settings.php:56
+msgid "API Environment"
+msgstr "API Environment"
+
+#: includes/class-worldpay-settings.php:64
+msgid "Merchant ID"
+msgstr "Merchant ID"
+
+#: includes/class-worldpay-settings.php:72
+msgid "API Key"
+msgstr "API Key"
+
+#: includes/class-worldpay-settings.php:81
+msgid "Order Status Settings"
+msgstr "Order Status Settings"
+
+#: includes/class-worldpay-settings.php:88
+msgid "Payment Success Status"
+msgstr "Payment Success Status"
+
+#: includes/class-worldpay-settings.php:118
+msgid "Enter your Payrix (WorldPay Hosted) API credentials below:"
+msgstr "Enter your Payrix (WorldPay Hosted) API credentials below:"
+
+#: includes/class-worldpay-settings.php:122
+msgid "Configure the order status updates after payment notification:"
+msgstr "Configure the order status updates after payment notification:"
+
+#: includes/class-worldpay-settings.php:129
+msgid "Test Environment"
+msgstr "Test Environment"
+
+#: includes/class-worldpay-settings.php:130
+msgid "Production Environment"
+msgstr "Production Environment"
+
+#: includes/class-worldpay-settings.php:132
+msgid "Select the API environment (Test or Production)."
+msgstr "Select the API environment (Test or Production)."
+
+#: includes/class-worldpay-settings.php:140
+msgid "Your Payrix Merchant ID (e.g., t1_mer_xxxxx)"
+msgstr "Your Payrix Merchant ID (e.g., t1_mer_xxxxx)"
+
+#: includes/class-worldpay-settings.php:148
+msgid "Your Payrix API Key for server-side authentication"
+msgstr "Your Payrix API Key for server-side authentication"
+
+#: includes/class-worldpay-settings.php:156
+msgid "Completed"
+msgstr "Completed"
+
+#: includes/class-worldpay-settings.php:157
+msgid "Processing"
+msgstr "Processing"
+
+#: includes/class-worldpay-settings.php:159
+msgid "Choose the order status to set when payment is successfully received."
+msgstr "Choose the order status to set when payment is successfully received."
+
+#: includes/class-worldpay-wc-gateway.php:26
+#: includes/class-worldpay-wc-gateway.php:56
+msgid "WorldPay Hosted Payment"
+msgstr "WorldPay Hosted Payment"
+
+#: includes/class-worldpay-wc-gateway.php:27
+#: includes/class-worldpay-wc-gateway.php:63
+msgid "Pay securely with WorldPay Hosted payment gateway."
+msgstr "Pay securely with WorldPay Hosted payment gateway."
+
+#: includes/class-worldpay-wc-gateway.php:47
+msgid "Enable/Disable"
+msgstr "Enable/Disable"
+
+#: includes/class-worldpay-wc-gateway.php:49
+msgid "Enable WorldPay Hosted Payment"
+msgstr "Enable WorldPay Hosted Payment"
+
+#: includes/class-worldpay-wc-gateway.php:53
+msgid "Title"
+msgstr "Title"
+
+#: includes/class-worldpay-wc-gateway.php:55
+msgid "This controls the title which the user sees during checkout."
+msgstr "This controls the title which the user sees during checkout."
+
+#: includes/class-worldpay-wc-gateway.php:60
+msgid "Description"
+msgstr "Description"
+
+#: includes/class-worldpay-wc-gateway.php:62
+msgid "Payment method description that the customer will see on your checkout."
+msgstr "Payment method description that the customer will see on your checkout."
+
+#: includes/class-worldpay-wc-gateway.php:79
+msgid "Awaiting WorldPay Hosted payment"
+msgstr "Awaiting WorldPay Hosted payment"
+
+#: includes/api/class-payrix-payment-service.php:191
+msgid "Payment completed via WorldPay Hosted (Payrix)."
+msgstr "Payment completed via WorldPay Hosted (Payrix)."
+
+#: includes/class-worldpay-hosted-page.php:223
+msgid "Payment completed via WorldPay Hosted Payment."
+msgstr "Payment completed via WorldPay Hosted Payment."
+
+#: templates/payrix-checkout.php:221
+msgid "Loading payment form..."
+msgstr "Loading payment form..."
+
+#: templates/payrix-checkout.php:226
+msgid "Payment Information"
+msgstr "Payment Information"
+
+#: templates/payrix-checkout.php:229
+msgid "Card Number"
+msgstr "Card Number"
+
+#: templates/payrix-checkout.php:235
+msgid "Expiration Date"
+msgstr "Expiration Date"
+
+#: templates/payrix-checkout.php:240
+msgid "CVV"
+msgstr "CVV"
+
+#: templates/payrix-checkout.php:246
+msgid "Cardholder Name"
+msgstr "Cardholder Name"
+
+#: templates/payrix-checkout.php:251
+msgid "Address form hidden because PayFields displays pre-filled addresses as ***"
+msgstr "Address form hidden because PayFields displays pre-filled addresses as ***"
+
+#: templates/payrix-checkout.php:254
+msgid "Billing Address"
+msgstr "Billing Address"
+
+#: templates/payrix-checkout.php:260
+msgid "Submit Payment"
+msgstr "Submit Payment"
+
+#: includes/class-worldpay-hosted-page.php:100
+msgid "Unable to load payment form:"
+msgstr "Unable to load payment form:"
+
+#: includes/class-worldpay-hosted-page.php:101
+msgid "Please refresh the page and try again."
+msgstr "Please refresh the page and try again."
+
+#: includes/class-worldpay-hosted-page.php:102
+msgid "Please check your payment information"
+msgstr "Please check your payment information"
+
+#: includes/class-worldpay-hosted-page.php:104
+msgid "Processing..."
+msgstr "Processing..."
+
+#: includes/class-worldpay-hosted-page.php:105
+msgid "Retry Payment"
+msgstr "Retry Payment"
+
+#: includes/class-worldpay-hosted-page.php:106
+msgid "Payment Successful!"
+msgstr "Payment Successful!"
+
+#: includes/class-worldpay-hosted-page.php:107
+msgid "Transaction ID:"
+msgstr "Transaction ID:"
+
+#: includes/class-worldpay-hosted-page.php:108
+msgid "Updating order status..."
+msgstr "Updating order status..."
+
+#: includes/class-worldpay-hosted-page.php:109
+msgid "Redirecting to order confirmation page..."
+msgstr "Redirecting to order confirmation page..."
+
+#: includes/class-worldpay-hosted-page.php:110
+msgid "Payment Failed"
+msgstr "Payment Failed"
+
+#: includes/class-worldpay-hosted-page.php:111
+msgid "Please check your payment information and try again"
+msgstr "Please check your payment information and try again"
+
+#: includes/class-worldpay-hosted-page.php:112
+msgid "Error:"
+msgstr "Error:"
+
+#: includes/class-worldpay-hosted-page.php:113
+msgid "PayFields not initialized, please refresh the page"
+msgstr "PayFields not initialized, please refresh the page"
+
+#: includes/class-worldpay-hosted-page.php:114
+msgid "Invalid payment configuration: Missing Merchant ID"
+msgstr "Invalid payment configuration: Missing Merchant ID"
+
+#: includes/class-worldpay-wc-gateway.php:115
+msgid "Invalid payment configuration: Missing API Key, please check backend settings"
+msgstr "Invalid payment configuration: Missing API Key, please check backend settings"
+
+#: includes/class-worldpay-wc-gateway.php:72
+msgid "Payment Method Icon"
+msgstr "Payment Method Icon"
+
+#: includes/class-worldpay-wc-gateway.php:74
+msgid "Upload or enter the URL of the payment method icon. Leave empty to use the default icon."
+msgstr "Upload or enter the URL of the payment method icon. Leave empty to use the default icon."
+
+#: includes/class-worldpay-wc-gateway.php:119
+msgid "Upload Icon"
+msgstr "Upload Icon"
+
+#: includes/class-worldpay-wc-gateway.php:123
+msgid "Remove Icon"
+msgstr "Remove Icon"
+
+#: includes/class-worldpay-wc-gateway.php:162
+msgid "Select Payment Method Icon"
+msgstr "Select Payment Method Icon"
+
+#: includes/class-worldpay-wc-gateway.php:163
+msgid "Use this image"
+msgstr "Use this image"
