@@ -1,127 +1,53 @@
-# WooCommerce Payment Gateways Collection
+# WooCommerce Payment Gateway Plugins
 
-> **40+ 个 WooCommerce 支付网关插件合集**，覆盖全球主流支付渠道。  
-> 本仓库包含 4 个生产环境验证过的插件示例，可免费下载使用。
+> 跨境电商支付插件合集 · 已对接 40+ 全球支付通道
 
----
-
-## 📦 开源插件示例
-
-| 插件名称 | 支付渠道 | 地区 | 复杂度 |
-|----------|----------|------|--------|
-| **woo-sbp** | SBP（俄罗斯快速支付） | 俄罗斯 | ⭐⭐⭐⭐⭐ |
-| **woocommerce-payment-novam** | Novam（加密货币） | 全球 | ⭐⭐⭐⭐ |
-| **worldpay-hosted** | WorldPay | 欧美 | ⭐⭐⭐⭐ |
-| **woo-superxpay-gateway** | Superxpay | 东南亚 | ⭐⭐⭐ |
+[![License](https://img.shields.io/badge/license-GPL--3.0-blue.svg)](LICENSE)
+[![WooCommerce](https://img.shields.io/badge/WooCommerce-7.0+-green.svg)](https://woocommerce.com/)
 
 ---
 
-## 🚀 快速开始
+## 📦 开源插件（2 个）
 
-### 安装方法
+本仓库开源了 **2 个冷门支付通道插件**，供开发者学习参考：
 
-1. 下载插件文件夹
-2. 上传到 WordPress 站点：`wp-content/plugins/`
-3. 在 WordPress 后台启用插件
-4. 进入 WooCommerce → 设置 → 支付，配置参数
-
-### 部署要求
-
-- WordPress 5.0+
-- WooCommerce 4.0+
-- PHP 7.4+
+| 插件 | 支付通道 | 目标市场 |
+|------|---------|---------|
+| [woocommerce-payment-novam](woocommerce-payment-novam/) | Novam | 🇵🇰 巴基斯坦 Jazzcash/Easypaisa |
+| [woo-hambit-gateway](woo-hambit-gateway/) | HamBit | 🌍 全球加密货币支付 |
 
 ---
 
-## 💼 定制开发服务
+## 🌍 已对接的其他支付通道（40+）
 
-**专注 WooCommerce 支付网关开发**，已交付 40+ 个支付渠道插件。
+以下通道已对接，**因商业保密未公开源码**，需定制请联系：
 
-### 服务类型
+**亚洲**: HKPay, Easylink, MulPay, SB Payment, NicePay, DDMPay, Huifu, Antom, Antom CKP, WinPay...
 
-| 服务 | 价格 | 交付周期 |
-|------|------|----------|
-| **标准对接** | ¥800-1500 | 3-5 天 |
-| **复杂对接** | ¥2500-5000 | 5-10 天 |
-| **紧急单** | +30% | 24-48 小时 |
-| **维护费** | ¥300-500/年 | - |
+**中东**: Huitrust, Payzets, SosoPay...
 
-### 支持的支付渠道
+**拉美**: PIX, UePay...
 
-**已交付 40+ 个支付网关**，覆盖：
+**其他**: WorldPay, OkPay, UnionPay, SunPay, MzfPay, QTOPay, RazerPay, SgPay, CSPay, SuperxPay...
 
-- 🇷🇺 **俄罗斯/独联体**：SBP、YooMoney、Qiwi
-- 🇸🇪 **东南亚**：PromptPay、VNPay、MoMo、OVO、GCash
-- 🇦🇪 **中东**：Mada、KNET、Fawry
-- 🇧🇷 **拉美**：Pix、Boleto、Mercado Pago
-- 💰 **加密货币**：USDT、BTC、ETH（TRC20/ERC20）
-- 🌍 **国际支付**：WorldPay、GlobalPay、Stripe
-
-**国内支付渠道（支付宝、微信、银联、汇付等）需单独联系**
-
-**有支付渠道的 API 文档？发给我，免费评估报价！**
+[查看完整列表](https://www.itbunan.xyz/pay.html)
 
 ---
 
-## 📬 联系方式
+## 🛠️ 定制开发服务
 
-**有支付网关开发需求？欢迎联系！**
+**需要对接其他支付通道？联系我！**
 
-- 📧 **邮箱**：1940728253@qq.com
-- 🐧 **QQ**：扫码添加
-- 🌐 **博客**：https://www.itbunan.xyz/
-- 💼 **知乎**：https://www.zhihu.com/people/zhiyuan68
-
-### QQ 二维码
-
-![QQ 二维码](https://www.itbunan.xyz/usr/uploads/image/1940728253.png)
-
-> 扫码添加 QQ，备注"WooCommerce 支付"优先通过
+- 📧 Email: `1940728253@qq.com`
+- 💬 QQ: `1940728253`
+- 🌐 博客：[IT 技术家园](https://www.itbunan.xyz/)
+- 📚 教程：[支付对接合集](https://www.itbunan.xyz/pay.html)
+- 💼 服务：[服务页面](https://www.itbunan.xyz/service.html)
 
 ---
 
-## ❓ 常见问题
+<div align="center">
 
-### Q1: 这些插件可以直接用吗？
+**Star ⭐ 支持一下！**
 
-可以，但需要配置支付渠道的商户号和 API 密钥。每个插件都有 README 说明。
-
-### Q2: 定制开发周期多久？
-
-- 简单支付（有完整 API 文档）：3-5 天
-- 复杂支付（需要特殊处理）：5-10 天
-- 加密货币支付：7-15 天
-
-### Q3: 怎么付款？
-
-支持支付宝、微信、银行转账。50% 预付款启动，验收后付尾款。
-
-### Q4: 售后怎么保障？
-
-提供 30-90 天免费技术支持，维护期内 Bug 免费修复，API 升级免费适配。
-
----
-
-## 📄 许可证
-
-本仓库开源插件采用 **MIT License**，可自由使用、修改、分发。
-
-**商业使用须知**：
-- ✅ 可以用于自己的网站
-- ✅ 可以修改代码
-- ✅ 可以分发给客户
-- ❌ 不得转售源码（除非购买商业授权）
-
----
-
-## ⭐ 支持我们
-
-如果这个项目对你有帮助，欢迎：
-
-1. **Star 本项目** ⭐
-2. **Fork 并改进** 🔧
-3. **推荐给朋友** 📢
-
----
-
-_最后更新：2026-03-11_
+</div>
