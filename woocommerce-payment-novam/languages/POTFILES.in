@@ -1,0 +1,5 @@
+./includes/class-wc-easypaisa-direct.php
+./includes/class-wc-jazzcash-direct.php
+./includes/class-wc-novam-blocks-support.php
+./includes/class-wc-novam-gateway.php
+./woocommerce-payment-novam.php
